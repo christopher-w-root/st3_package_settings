@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"C++11",
+		"Clang Format",
+		"CMake",
+		"Emmet",
+		"GitGutter",
+		"Origami",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-contrib-glsl",
+		"SublimeLinter-cpplint",
+		"SublimeLinter-jshint",
+		"Sublimerge Pro"
+	]
+}

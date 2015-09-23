@@ -1,0 +1,24 @@
+{
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 0,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Mac Classic (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"C++",
+		"Vintage",
+		"GitGutter",
+		"completion"
+	],
+	"indent_subsequent_lines": true,
+	"origami_auto_close_empty_panes": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintageous_ignorecase": true,
+	"vintageous_use_ctrl_keys": true,
+	"word_wrap": true
+}

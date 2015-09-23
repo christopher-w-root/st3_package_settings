@@ -1,0 +1,64 @@
+[
+   { "keys": ["super+alt+up"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "h", "ipp", "inl", "m", "mm"]} },
+
+   { "keys": ["shift+f1"], "command": "edit_current_color_scheme"},
+
+   { "keys": ["super+left"], "command": "prev_view" },
+   { "keys": ["super+right"], "command": "next_view" },
+
+   { "keys": ["super+shift+d"], "command": "find_under_expand" },
+
+
+   // SublimeGDB:
+   {
+       "keys": ["ctrl+shift+6"],
+       "command": "gdb_toggle_breakpoint"
+       // "context": [
+           // {"key": "selector", "operator": "equals", "operand": "source.c++.11"}
+       // ]
+   },
+   {
+       "keys": ["ctrl+shift+7"],
+       "command": "gdb_launch",
+       "context": [{"key": "gdb_running", "operator": "equal", "operand": false}]
+   },
+   {
+       "keys": ["ctrl+shift+7"],
+       "command": "gdb_exit",
+       "context": [{"key": "gdb_running", "operator": "equal", "operand": true}]
+   },
+   {
+       "keys": ["ctrl+f5"],
+       "command": "gdb_continue",
+       "context": [{"key": "gdb_running", "operator": "equal", "operand": true}]
+   },
+   {
+       "keys": ["ctrl+f10"],
+       "command": "gdb_step_over",
+       "context":
+       [
+           {"key": "gdb_running", "operator": "equal", "operand": true},
+           {"key": "gdb_disassembly_view", "operand": false}
+       ],
+   },
+   {
+       "keys": ["ctrl+f11"],
+       "command": "gdb_step_into",
+       "context": [{"key": "gdb_running", "operator": "equal", "operand": true}],
+   },
+   {
+       "keys": ["ctrl+shift+f11"],
+       "command": "gdb_step_out",
+       "context": [{"key": "gdb_running", "operator": "equal", "operand": true}],
+   },
+
+
+   // make more like my windows settings
+
+   // Using Vintageous, tab & shift+tab can be used to (un)indent when in command mode
+   { "keys": ["tab"], "command": "indent", "context": [{"key": "vi_command_mode_aware"}] },
+   { "keys": ["shift+tab"], "command": "unindent", "context": [{"key": "vi_command_mode_aware"}] },
+
+   // select in brackets (default is ctrl+shift+m)
+   { "keys": ["shift+super+m"], "command": "expand_selection", "args": {"to": "brackets"} }
+]
