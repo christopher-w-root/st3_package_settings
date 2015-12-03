@@ -5,11 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"AlignTab",
+		"C++ Starting Kit",
 		"C++11",
 		"Clang Format",
 		"CMake",
 		"Emmet",
 		"GitGutter",
+		"Oasis Theme",
 		"Origami",
 		"Package Control",
 		"SideBarEnhancements",
@@ -18,6 +21,9 @@
 		"SublimeLinter-contrib-glsl",
 		"SublimeLinter-cpplint",
 		"SublimeLinter-jshint",
-		"Sublimerge Pro"
+		"Sublimerge Pro",
+		"Theme - Soda",
+		"Theme - SoDaReloaded",
+		"Tomorrow Color Schemes"
 	]
 }
